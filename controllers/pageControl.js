@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'development') {
 
 
 exports.home = (req, res) => {
-  var prettyNum = `(${phoneNumber.slice(2,5).join('')}) ${phoneNumber.slice(5,8).join('')}-${phoneNumber.slice(8,12).join('')}`;
+  var prettyNum = `(${phoneNumber.slice(3,6).join('')}) ${phoneNumber.slice(6,9).join('')}-${phoneNumber.slice(8,12).join('')}`;
   res.render('home', {
     title: 'Home',
     phone: prettyNum
