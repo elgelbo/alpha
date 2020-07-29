@@ -91,7 +91,7 @@ exports.response = (answers, questions, err) => {
   }
   // ENGLISH
   if (!err && answers.responses.length === 1) {
-    interloper.push(questions.instructions, questions.disclaimer, responseMessage);
+    interloper.push(questions.disclaimer, questions.instructions, responseMessage);
     return interloper;
   }
   return responseMessage;
