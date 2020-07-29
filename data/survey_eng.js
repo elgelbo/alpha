@@ -1,9 +1,9 @@
 module.exports = {
   title: 'English',
   intro:
-    "Hello! Your input will help shape the County of San Diego's first-ever Environmental Justice Element. (A part of the General Plan.)\r\nLearn more: https://lmgtfy.com/?q=environmental+justice",
+    "Hello! Thank you for taking the survey.",
   instructions:
-    'INSTRUCTIONS: Please text your response to the following questions.\r\n',
+    'INSTRUCTIONS: Please text your response to the following questions.\r\nYour input will help shape the County of San Diego\'s first-ever Environmental Justice Element. (A part of the General Plan.)\r\nLearn more: https://lmgtfy.com/?q=environmental+justice',
   disclaimer:
     'DISCLAIMER: We respect your privacy.\r\nYour data will only be used to communicate with you about this project and will not be shared or distributed.',
   close: 'Thank you for completing the survey',
